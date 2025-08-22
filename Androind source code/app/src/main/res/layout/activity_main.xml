@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jstyle.test2025.activity.MainActivity">
+
+    <Button
+        android:id="@+id/BT_CONNECT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Device"
+        android:enabled="false"
+        tools:enabled="true"
+        tools:text="Connect (preview)" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@android:layout/simple_list_item_1"
+        tools:itemCount="6" />
+</LinearLayout>
